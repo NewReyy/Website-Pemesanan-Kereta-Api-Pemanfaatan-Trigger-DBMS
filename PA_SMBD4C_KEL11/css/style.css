@@ -1,0 +1,144 @@
+@font-face {
+	font-family: fontBens;
+	src: url(../fonts/BRLNSR.TTF);
+}
+@font-face{
+	font-family: fontcalibri;
+	src: url(../fonts/calibri.ttf);
+}
+#lheader{
+	text-align: center;
+	padding: 10px;
+	background-color: rgba(46, 138, 255, 0.7);
+	color: white;
+	font-family: Arial;
+	-moz-border-radius: 12px 12px 0 0;
+	-webkit-border-radius: 12px 12px 0 0;
+	border-radius: 12px 12px 0 0;
+}
+
+#lform{
+	padding-top: 40px;
+	line-height: 70px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#linput{
+	width: 310px;
+	height: 38px;
+	box-shadow: 0px 0px 20px silver;
+	background-color: #F8F8FF;
+	border: 3px solid silver;
+	border-radius: 5px;
+}
+#lbutton{
+	background-color: rgba(46, 138, 255, 0.7);
+	color: white;
+	padding: 10px 40px;
+	border: 1px solid rgba(46, 138, 255, 0.7);
+	margin-top: 20px;
+	cursor: pointer;
+	float: right;
+	font-weight: bolder;
+	box-shadow: 0px 0px 15px silver;
+}
+
+#lbutton:hover{
+	background-color: rgba(46, 138, 255, 1);
+	border: 1px solid rgba(46, 138, 255, 1);
+}
+
+#lbutton:active{
+	position: relative;
+	top: 2px;
+}
+
+#menulogin{
+	margin: -20% 25% 0px 25%;
+	padding-bottom: 10px;
+	background-color: #F0FFFF;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 95px black;
+	position: absolute;
+}
+#menulogin2{
+	margin: 2% 25% 0px 25%;
+	padding-bottom: 10px;
+	background-color: #F0FFFF;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 95px black;
+	position: absolute;
+}
+#cls{
+	float: right;
+	background-color: rgba(46, 138, 255, 0.1);
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid rgba(46, 138, 255, 0.2);
+	cursor: pointer;
+	color: white;
+}
+
+#carijadwal{
+	font-family: Arial;
+	padding-bottom: 10px;
+	margin: -20% 22% 0 22%;
+	background-color: #F0FFFF;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 95px black;
+	position: absolute;
+}
+#carijadwal2{
+	font-family: Arial;
+	padding-bottom: 10px;
+	margin: 2% 22% 0 22%;
+	background-color: #F0FFFF;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 95px black;
+	position: absolute;
+}
+#close{
+	float: right;
+	background-color: rgba(46, 138, 255, 0.1);
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid rgba(46, 138, 255, 0.2);
+	cursor: pointer;
+	color: white;
+}
+#roption{
+	width: 389px;
+	height: 30px;
+	box-shadow: 0px 0px 20px silver;
+	background-color: #F8F8FF;
+	border: 3px solid silver;
+	border-radius: 5px;
+	display: block;
+}
+#rheader{
+	text-align: center;
+	padding: 10px 60px 10px 60px;
+	background-color: rgba(46, 138, 255, 0.7);
+	color: white;
+	-moz-border-radius: 12px 12px 0 0;
+	-webkit-border-radius: 12px 12px 0 0;
+	border-radius: 12px 12px 0 0;
+}
+#rform{
+	font-family: fontcalibri;
+	padding-top: 10px;
+	line-height: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+}

@@ -1,0 +1,410 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+@font-face {
+	font-family: fontBens;
+	src: url(../fonts/BRLNSR.TTF);
+}
+@font-face{
+	font-family: fontcalibri;
+	src: url(../fonts/calibri.ttf);
+}
+header {
+	text-align: center;
+	background-color: #E95420;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	line-height: 7px;
+	font-family: Comic Sans MS;
+}
+header h1{
+	font-size: 50px;
+}
+header h5 {
+	color: black;	
+}
+
+aside{
+	margin-top: 25px;
+	margin-right: 20px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	line-height: 1px;
+}
+article.hasil {
+	margin-top: 3px;
+	height: 600px;
+	box-shadow: 0px 0px 3px silver;
+	border: 2px solid silver;
+	}
+
+aside a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+
+aside a :hover{
+	color: #DC143C;
+
+}
+
+img {
+	width: 30px;
+	height: 30px;
+	margin-bottom: -12px;
+}
+
+nav{
+	float: left;
+	background-color: #AEA79F; 
+	margin-right: 30px;
+	margin-left: -32px;
+	height: 590px;
+}
+nav.lhd{
+	float: left;
+	background-color: #AEA79F;
+	margin-right: 10px;
+	margin-left: -32px;
+	height: 590px;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+}
+
+nav li{
+	line-height: 42px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	font-family: Arial;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	padding: 8px 15px;
+}
+
+nav li:hover{
+	background-color: white;
+}
+nav a:hover{
+	color: #DC143C;
+}
+
+#font {
+	margin-left: 40%;
+	font-family: Comic Sans MS;
+	
+}
+#font2{
+	text-align: justify;
+	font-family: Comic Sans MS;
+}
+#font3{
+	text-align: justify;
+	font-family: Comic Sans MS;
+	margin-left: 20%;
+}
+form{
+	font-family: Comic Sans MS;
+	margin-left: 350px;
+	margin-top: 25px;
+}
+form.settings{
+	font-family: Comic Sans MS;
+	margin-left: 460px;
+}
+input{
+	border: 1px solid #556B2F;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px #AEA79F;;
+	font-size: 13pt;
+	margin-bottom: 5px;
+}
+
+input.size{
+	width: 50px;
+}
+#jarakpass{
+	margin-left: 55px;
+}
+#jarakpass2{
+	margin-left: 55px;
+}
+#jarakpass3{
+	margin-left: 55px;
+}
+#jarakno{
+	margin-left: 5%;
+	width: 30%;
+}
+#jarakemail{
+	margin-left: 11.5%;
+	width: 30%;
+}
+#pilihan{
+	margin-top: 7%;
+	width: 70%;
+}
+.jaraknama{
+	margin-left: 60px;
+	width: 462px;
+}
+.jarakkelas{
+	margin-left: 137px;
+	width: 464px;
+	border: 1px solid #556B2F;
+	border-radius: 3px;
+	box-shadow: 0px 0px 20px silver;
+	margin-bottom: 5px;
+	font-size: 13pt;
+}
+.jarakasal{
+	margin-left: 143px;
+	width: 464px;
+	border: 1px solid #556B2F;
+	border-radius: 3px;
+	box-shadow: 0px 0px 20px silver;
+	margin-bottom: 5px;
+	font-size: 13pt;
+}
+.jaraktujuan{
+	margin-left: 127px;
+	width: 464px;
+	border: 1px solid #556B2F;
+	border-radius: 3px;
+	box-shadow: 0px 0px 20px silver;
+	margin-bottom: 5px;
+	font-size: 13pt;
+}
+.jarakttl{
+	margin-left: 32px;
+}
+.jarakjam{
+	margin-left: 6px;
+	margin-right: 10px;
+}
+.jarakjam2{
+	margin-left: 10px;
+}
+.jarakharga{
+	margin-left: 92px;
+	width: 462px;
+}
+
+button{
+	margin-top: 20px;
+	height: 40px;
+	background-color: #E95420;
+	color: white;
+	padding: 10px 40px;
+	border: 1px solid #E95420;
+	cursor: pointer;
+	font-weight: bolder;
+	box-shadow: 0px 0px 15px silver;
+	font-family: Comic Sans MS;
+}
+button.setmargin{
+	margin-left: 210px;
+}
+button:hover{
+	background-color: #E95420;
+	border: 1px solid #E95420;
+}
+
+button:active{
+	position: relative;
+	top: 2px;
+}
+
+.batal {
+	margin-left: 240px;
+	margin-right: 50px;
+}
+
+.isi {
+	margin-left: 75px;
+	font-family: arial;
+}
+footer{
+	clear: left;
+	text-align: center;
+	background-color: #E95420;
+	color: white;
+	font-family: Comic Sans MS;
+}
+
+a.active{
+	color: #EB6536;
+	font-weight: bold;
+	cursor: default;
+}
+li.active{
+	background-color: #FFFFF0;
+	box-shadow: 4px -1px 1px #808080;
+}
+
+label{
+	font-size: 14px;
+}
+#buttons{
+	margin-left: 40%;
+}
+.judul{
+	margin-left: 35px;
+}
+#lhtart{
+	/* margin-right: 24px;
+	margin-left: 24px; */
+	color: white;
+	padding: 0.5px 7px;
+	font-size: 10.5pt;
+	border: 1px solid #E95420;
+	cursor: pointer;
+	border-radius: 5px 5px 5px 5px;
+	text-decoration: none;
+	background-color: #E95420;
+}
+
+table.fontdt{
+	font-size: 10pt;
+	font-family: Arial;
+}
+
+table.fontdt th {
+	/* Gaya untuk elemen-elemen <th> di dalam tabel dengan kelas fontdt */
+	background-color: #2c3e50;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	border-bottom: 2px solid #fff;
+	transition: background-color 0.3s ease;
+  }
+  
+  table.fontdt th:hover {
+	background-color: #1abc9c;
+  }
+  
+  table.fontdt tr {
+	/* Gaya untuk elemen-elemen <tr> di dalam tabel dengan kelas fontdt */
+	background-color: #f2f2f2;
+	transition: background-color 0.3s ease;
+  }
+  
+  table.fontdt tr:hover {
+	background-color: #e0e0e0;
+  }
+  
+  table.fontdt td {
+	/* Gaya untuk elemen-elemen <td> di dalam tabel dengan kelas fontdt */
+	padding: 2px;
+	color: #333;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	border-bottom: 1px solid #ccc;
+  }
+  
+  table.fontdt td:first-child {
+	font-weight: bold;
+	color: #1abc9c;
+  }
+  
+  
+#tabeljd{
+	width: 700px;
+}
+#tabeldt{
+	width: 200px;
+}
+.tanggal{
+	margin-left: 32px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.bulan{
+	text-align: center;
+}
+.tahun{
+	text-align: center;
+}
+.jarakharga{
+	margin-left: 100px;
+	width: 462px;
+	margin-bottom: -20px;
+}
+
+.jarakharga1{
+	margin-left: 104px;
+	width: 462px;
+	margin-bottom: -20px;
+}
+#tbk{
+	align-content: center;
+	margin-top: 5px;
+	margin-left: 5.5px;
+	margin-right: -5px;
+}
+
+#tbkisi{
+	border-left: 2px solid rgba(46, 138, 255, 0.7);
+	border-right: 2px solid rgba(46, 138, 255, 0.7);
+	border-bottom: 2px solid rgba(46, 138, 255, 0.7);
+	background-color: white;
+
+}
+
+#tbbooking{
+	background-color: rgba(46, 138, 255, 0.7);
+	font-family: fontcalibri;
+	font-weight: bolder;
+	color: white;
+	width: 52px;
+	font-size: 8pt;
+}
+
+#tbbooking:hover{
+	background-color: rgba(0, 0, 40, 0.9);
+	border: 1px solid rgba(0, 0, 40, 0.9);
+	cursor: pointer;
+}
+
+#tbkbatal{
+	background-color: red;
+	font-family: fontcalibri;
+	font-weight: bolder;
+	color: white;
+	width: 52px;
+}
+
+#tbkbatal:hover{
+	background-color: silver;
+	border: 1px solid silver;
+	cursor: pointer;
+}
+
+#tbkbeda{
+	border-left: 1px solid rgba(46, 138, 255, 0.7);
+	border-right: 1px solid rgba(46, 138, 255, 0.7);
+	border-bottom: 1px solid rgba(46, 138, 255, 0.7);
+	background-color: white;
+	color: white;
+	width: 52px;
+}
+#jd{
+	border-right: 3px solid rgba(46, 138, 255, 0.7);
+	border-bottom: 3px solid rgba(46, 138, 255, 0.7);
+	background-color: rgba(0, 118, 138, 1); 
+	color: white;
+}	
